@@ -1,0 +1,60 @@
+body {
+  background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #6ae4e9;
+}
+
+a :hover {
+  text-decoration: underline;
+}
+
+img.photo {
+  max-width: 80%;
+}
+
+img.picture {
+  max-width: 90%;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(256, 256, 0256, 0.25);
+}
+
+.button {
+  color: white;
+
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(256, 256, 0256, 0.25);
+}
+
+.social {
+  font-size: 18px;
+}
+.social,
+a {
+  text-decoration: none;
+}
+
+.social,
+a :hover {
+  text-decoration: none;
+}
+
+.centered {
+  text-align: center;
+}
